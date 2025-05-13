@@ -6,10 +6,11 @@ while True:
     pet_name = input("Pet's name: ")
     if pet_name.lower() == "":
         break
-    
+        # exit the loop if no pet name provided
     animal_type = input("Animal type (press 'Enter' for dog(default)): ")
     if animal_type.strip() == "":
         describe_pet(pet_name)
+        # if no animal type provided, defaults to dog
     else:
         describe_pet(pet_name, animal_type)
     

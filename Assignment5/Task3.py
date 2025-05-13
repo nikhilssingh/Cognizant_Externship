@@ -9,8 +9,9 @@ while True:
     ingredient = input("Ingredient: ")
     if ingredient.strip() == "":
         break
+        # if no ingredient provided, exits the loop
     ingredients.append(ingredient)
-    
+    # each ingredient appended to the list 
 make_sandwich(*ingredients)
     
         

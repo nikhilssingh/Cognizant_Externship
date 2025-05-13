@@ -9,6 +9,7 @@ greet_user(name)
 
 def add_numbers(num1,num2):
     result = num1 + num2
+    # not using variable name 'sum' as it can cause confusion
     return result
 
 print(f"The sum of {num1} and {num2} is {add_numbers(num1,num2)}.")
