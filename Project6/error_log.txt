@@ -1,0 +1,3 @@
+ERROR:2025-05-13 23:09:22,962:ZeroDivisionError occurred: float division by zero
+ERROR:2025-05-13 23:09:29,344:ValueError occurred: Invalid operation choice.
+ERROR:2025-05-13 23:09:33,672:ValueError occurred: could not convert string to float: 'lol'
